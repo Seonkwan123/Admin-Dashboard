@@ -24,7 +24,12 @@
 }
 
 .header {
+    display: grid;
     grid-area: header;
+}
+
+.header > * {
+ border: 5px solid green;
 }
 
 .sidebar {
