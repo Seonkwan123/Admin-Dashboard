@@ -8,11 +8,32 @@
 
 .container {
     display: grid;
-    grid-template: 2fr 1fr 5fr 1fr / 1fr 4fr;
+    grid-template: 2fr 1fr 5fr 1fr / 1fr 4fr 1fr;
     border: 5px solid gray;
     height: 90vh;
+    grid-area: "sidebar header header header",
+               "sidebar main main mian",
+               "sidebar main main mian",
+               "sidebar main main mian"
+               "footer footer footer footer";
 }
 
 .container > div {
     border: 3px dashed black;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
 }
