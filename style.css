@@ -12,3 +12,7 @@
     border: 5px solid gray;
     height: 90vh;
 }
+
+.container > div {
+    border: 3px dashed black;
+}
