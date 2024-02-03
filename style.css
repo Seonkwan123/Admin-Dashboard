@@ -11,11 +11,11 @@
     grid-template: 2fr 1fr 5fr 1fr / 1fr 4fr 1fr;
     border: 5px solid gray;
     height: 90vh;
-    grid-area: "sidebar header header header",
-               "sidebar main main mian",
-               "sidebar main main mian",
-               "sidebar main main mian"
-               "footer footer footer footer";
+    grid-template-areas: "sidebar header header header"
+                        "sidebar main main mian"
+                        "sidebar main main mian"
+                        "sidebar main main mian"
+                        "footer footer footer footer";
 }
 
 .container > div {
