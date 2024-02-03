@@ -8,9 +8,10 @@
 
 .container {
     display: grid;
-    grid-template: 2fr 1fr 5fr 1fr / 1fr 4fr 1fr;
+    grid-template: 2fr 1fr 5fr 1fr 1fr/ 1fr 4fr;
     border: 5px solid gray;
-    height: 90vh;
+    height: 100vh;
+    gap: 5px;
     grid-template-areas: "sidebar header header header"
                         "sidebar main main mian"
                         "sidebar main main mian"
