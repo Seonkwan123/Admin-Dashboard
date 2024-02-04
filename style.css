@@ -45,6 +45,12 @@
 
 .main {
     grid-area: main;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+.main > * {
+    border: 5px solid red;
 }
 
 .footer {
