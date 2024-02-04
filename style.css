@@ -16,7 +16,7 @@
                         "sidebar main main mian"
                         "sidebar main main mian"
                         "sidebar main main mian"
-                        "footer footer footer footer";
+                        "sidebar footer footer footer";
 }
 
 .container > div {
@@ -34,7 +34,15 @@
 
 .sidebar {
     grid-area: sidebar;
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr;
+    align-items: start;
 }
+
+.sidebar > * {
+    border: 5px solid blue;
+   }
+   
 
 .main {
     grid-area: main;
