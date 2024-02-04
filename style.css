@@ -35,8 +35,7 @@
 .sidebar {
     grid-area: sidebar;
     display: grid;
-    grid-template-rows: 1fr 2fr 4fr;
-    align-items: start;
+    grid-template-rows: 100px 300px 1fr;
 }
 
 .sidebar > * {
