@@ -28,8 +28,14 @@
     grid-area: header;
 }
 
-.header > * {
- border: 5px solid green;
+.upper-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.upper-content > div:nth-child(2) {
+    display: flex;
+    justify-content: end;
 }
 
 .sidebar {
