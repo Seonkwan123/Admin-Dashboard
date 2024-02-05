@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -34,11 +35,6 @@
     grid-template-columns: 2fr 1fr;
 }
 
-.upper-content > div:nth-child(2) {
-    display: flex;
-    justify-content: end;
-}
-
 .header-search {
     display: flex;
     justify-content: start;
@@ -54,6 +50,24 @@
 svg {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.header-extras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-extras > img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+} 
+
+.header-extras > p {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .sidebar {
