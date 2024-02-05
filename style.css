@@ -25,6 +25,7 @@
 
 .header {
     display: grid;
+    grid-template-rows: 1fr 2fr;
     grid-area: header;
 }
 
@@ -36,6 +37,23 @@
 .upper-content > div:nth-child(2) {
     display: flex;
     justify-content: end;
+}
+
+.header-search {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-search > input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+svg {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .sidebar {
