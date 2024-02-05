@@ -24,11 +24,15 @@
     border: 3px dashed black;
 }
 
+/* Header */
+
 .header {
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-area: header;
 }
+
+/* Upper cotent of header */
 
 .upper-header {
     display: grid;
@@ -70,9 +74,27 @@ svg {
     font-weight: bold;
 }
 
+/* Lower content of header */
+
 .lower-header{
-    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
 }
+
+.lower-header-main {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lower-header-main > img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+/* Sidebar */
 
 .sidebar {
     grid-area: sidebar;
