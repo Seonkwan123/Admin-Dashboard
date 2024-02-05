@@ -30,7 +30,7 @@
     grid-area: header;
 }
 
-.upper-content {
+.upper-header {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -68,6 +68,10 @@ svg {
 .header-extras > p {
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.lower-header{
+    
 }
 
 .sidebar {
