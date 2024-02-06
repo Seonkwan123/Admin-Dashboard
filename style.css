@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     display: grid;
-    grid-template: 2fr 1fr 5fr 1fr 1fr/ 1fr 4fr;
+    grid-template: 1.7fr 1fr 5fr 1fr 1fr/ 1fr 4fr;
     border: 5px solid gray;
     height: 100vh;
     gap: 5px;
@@ -26,6 +26,8 @@
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-area: header;
+    padding: 0 40px;
+    padding-top: 10px;
 }
 
 /* Upper cotent of header */
@@ -67,7 +69,7 @@ svg {
 
 .header-extras > p {
     font-size: 1.3rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 /* Lower content of header */
@@ -91,14 +93,31 @@ svg {
 }
 
 .lower-header-main p {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .lower-header-main p:last-child {
     font-size: 1.4rem;
-    padding-top: 0.8rem;
+    padding-top: 0.5rem;
 }
 
+.lower-header-buttons {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+gap: 30px;
+}
+
+.lower-header-buttons button {
+    background-color: #0ea5e9;
+    width: 6rem;
+    height: 2rem;
+    color: #f0f9ff;
+    border: none;
+    border-radius: 32px;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 /* Sidebar */
 
