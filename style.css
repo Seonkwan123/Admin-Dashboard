@@ -28,6 +28,7 @@
     grid-area: header;
     padding: 0 40px;
     padding-top: 10px;
+    background-color: #fafafa;
 }
 
 /* Upper cotent of header */
@@ -47,6 +48,10 @@
 .header-search > input {
     flex: 1;
     margin-right: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d1d5db;
+    height: 1.3rem;
 }
 
 svg {
