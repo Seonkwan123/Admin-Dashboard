@@ -136,6 +136,7 @@ gap: 30px;
 .dashboard {
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .dashboard > svg {
@@ -152,6 +153,15 @@ gap: 30px;
 .sidebar > div:nth-child(2), .sidebar > div:nth-child(3) {
     border: 5px solid blue;
    }
+
+.sidebar-content > li {
+    color: #f8fafc;
+    list-style: none;
+}
+
+.sidebar-content svg {
+    fill: #f8fafc;;
+}
    
 
 .main {
