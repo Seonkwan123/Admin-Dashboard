@@ -150,13 +150,17 @@ gap: 30px;
     font-size: 1.4rem;
 }
 
-.sidebar > div:nth-child(2), .sidebar > div:nth-child(3) {
+.sidebar > div:nth-child(3) {
     border: 5px solid blue;
    }
 
 .sidebar-content > li {
     color: #f8fafc;
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
 }
 
 .sidebar-content svg {
