@@ -17,7 +17,7 @@
                         "sidebar main main mian"
                         "sidebar main main mian"
                         "sidebar main main mian"
-                        "sidebar footer footer footer";
+                        "sidebar main main mian";
 }
 
 /* Header */
@@ -150,10 +150,6 @@ gap: 30px;
     font-size: 1.4rem;
 }
 
-.sidebar > div:nth-child(3) {
-    border: 5px solid blue;
-   }
-
 .sidebar-content > li {
     color: #f8fafc;
     list-style: none;
@@ -167,7 +163,6 @@ gap: 30px;
 .sidebar-content svg {
     fill: #f8fafc;;
 }
-   
 
 .main {
     grid-area: main;
@@ -177,8 +172,4 @@ gap: 30px;
 
 .main > * {
     border: 5px solid red;
-}
-
-.footer {
-    grid-area: footer;
 }
