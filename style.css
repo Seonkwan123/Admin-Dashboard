@@ -161,7 +161,7 @@ gap: 30px;
 
 
 .sidebar-content svg {
-    fill: #f8fafc;;
+    fill: #f8fafc;
 }
 
 .main {
@@ -175,10 +175,18 @@ gap: 30px;
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
     grid-area: 2 / 1 / 3 / 2;
 }
+
+.projects > div {
+    background-color: #f8fafc;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 0.85rem;
+} 
 
 .main > * {
     border: 1px solid red;
