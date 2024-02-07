@@ -168,6 +168,14 @@ gap: 30px;
     grid-area: main;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
+    background-color: #d1d5db;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px 10px;
+    gap: 10px;
 }
 
 .main > * {
