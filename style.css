@@ -203,9 +203,15 @@ gap: 30px;
 .announcements {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin-left: 20px;
+    background-color: #f8fafc;
+    box-shadow: 5px 5px 5px #9ca3af;
+    border-radius: 10px;
 }
 
-.main > * {
-    border: 1px solid red;
+.announcements > div {
+    padding: 10px;
+    
 }
