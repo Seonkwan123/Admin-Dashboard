@@ -203,6 +203,10 @@ gap: 30px;
     /* Annoucements */
 }
 
+.rightside-content {
+    margin: auto;
+}
+
 .text {
     margin-left: 20px; 
     margin-top: 10px;
