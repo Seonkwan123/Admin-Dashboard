@@ -196,12 +196,12 @@ gap: 30px;
 
 .main-content > div{
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: end;
     align-items: end;
-
-    /* Annoucements */
 }
+
+ /* Annoucements */
 
 .rightside-content {
     margin: auto;
@@ -236,3 +236,26 @@ gap: 30px;
 .announcements > div {
     padding: 15px 0;
 }
+
+/* Trending */
+
+.trending {
+    display: grid;
+    grid-template-rows: repeat(4. 1fr);
+    background-color: #f8fafc;
+    box-shadow: 5px 5px 5px #9ca3af;
+    border-radius: 10px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trending > div {
+    display: flex;
+}
+
+.trending > div >img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+} 
