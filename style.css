@@ -12,7 +12,6 @@
     grid-template: 1.7fr 1fr 5fr 1fr 1fr/ 1fr 4fr;
     border: 5px solid gray;
     height: 100vh;
-    gap: 5px;
     grid-template-areas: "sidebar header header header"
                         "sidebar main main mian"
                         "sidebar main main mian"
@@ -164,6 +163,8 @@ gap: 30px;
     fill: #f8fafc;
 }
 
+/* Main Content */
+
 .main {
     grid-area: main;
     display: grid;
@@ -198,6 +199,8 @@ gap: 30px;
     gap: 20px;
     justify-content: end;
     align-items: end;
+
+    /* Annoucements */
 }
 
 .announcements {
@@ -209,9 +212,15 @@ gap: 30px;
     background-color: #f8fafc;
     box-shadow: 5px 5px 5px #9ca3af;
     border-radius: 10px;
+    margin-right: 20px;
+    padding: 15px;
 }
 
+.announcements > div:not(:last-child) {
+    border-bottom: 1px solid #71717a;
+}
+
+
 .announcements > div {
-    padding: 10px;
-    
+    padding: 15px 0;
 }
