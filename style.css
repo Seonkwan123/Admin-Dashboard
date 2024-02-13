@@ -210,19 +210,12 @@ gap: 30px;
  /* Annoucements */
 
 .rightside-content {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
     margin: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
-.text {
-    margin-left: 20px; 
-    margin-top: 10px;
-}
-
-.announcements {
-    display: grid;
     grid-template-rows: 40px 1fr;
+    justify-content: stretch;
 }
 
 .announcement {
