@@ -9,14 +9,11 @@
 
 .container {
     display: grid;
-    grid-template: 1.7fr 1fr 5fr 1fr 1fr/ 1fr 4fr;
+    grid-template: 1.7fr 5fr/ 1fr 4fr;
     border: 5px solid gray;
     height: 100vh;
     grid-template-areas: "sidebar header header header"
                         "sidebar main main mian"
-                        "sidebar main main mian"
-                        "sidebar main main mian"
-                        "sidebar main main mian";
 }
 
 /* Header */
@@ -169,19 +166,24 @@ gap: 30px;
     grid-area: main;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
-    grid-template-rows: 30px 1fr;
     background-color: #d1d5db;
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-rows: 40px 1fr;
+    gap: 15px;
     grid-area: 2 / 1 / 3 / 2;
-    padding: 10px;
+    padding: 0 10px;
 }
 
-.projects > div {
+.main-contents {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.main-content{
     background-color: #f8fafc;
     border-radius: 10px;
     padding: 20px;
@@ -204,18 +206,23 @@ gap: 30px;
  /* Annoucements */
 
 .rightside-content {
+    grid-row: 1 / 3;
     margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .text {
     margin-left: 20px; 
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .announcements {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 40px 1fr;
+}
+
+.announcement {
     font-size: 0.7rem;
     font-weight: 300;
     margin-left: 20px;
@@ -241,7 +248,7 @@ gap: 30px;
 
 .trending {
     display: grid;
-    grid-template-rows: repeat(4. 1fr);
+    grid-template-rows: repeat(4, 1fr);
     background-color: #f8fafc;
     box-shadow: 5px 5px 5px #9ca3af;
     border-radius: 10px;
