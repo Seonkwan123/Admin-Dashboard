@@ -221,6 +221,11 @@ gap: 30px;
     margin-left: 20px;
 }
 
+.announcement-trending {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 .announcement {
     font-size: 0.7rem;
     font-weight: 300;
@@ -229,17 +234,16 @@ gap: 30px;
     box-shadow: 5px 5px 5px #9ca3af;
     border-radius: 10px;
     margin-right: 20px;
-    margin-top: 10px;
     padding: 15px;
-    max-width: 250px;
+    min-width: 250px;
 }
 
-.announcements > div:not(:last-child) {
+.announcement > div:not(:last-child) {
     border-bottom: 1px solid #71717a;
 }
 
 
-.announcements > div {
+.announcement > div {
     padding: 15px 0;
 }
 
@@ -251,7 +255,7 @@ gap: 30px;
     background-color: #f8fafc;
     box-shadow: 5px 5px 5px #9ca3af;
     border-radius: 10px;
-    max-width: 250px;
+    min-width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
