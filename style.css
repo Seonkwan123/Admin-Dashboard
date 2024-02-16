@@ -196,7 +196,7 @@ gap: 30px;
     font-weight: 300;
     font-size: 0.85rem;
     border-left: 8px solid #eab308;
-    box-shadow: 5px 5px 5px #9ca3af;
+    box-shadow: 4px 4px 5px #a1a1aa;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -231,11 +231,11 @@ gap: 30px;
     font-weight: 300;
     margin-left: 20px;
     background-color: #f8fafc;
-    box-shadow: 5px 5px 5px #9ca3af;
+    box-shadow: 4px 4px 5px #a1a1aa;
     border-radius: 10px;
     margin-right: 20px;
     padding: 10px 20px 20px;
-    max-width: 250px;
+    max-width: 240px;
 }
 
 .announcement > div:not(:last-child) {
@@ -258,10 +258,9 @@ gap: 30px;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     background-color: #f8fafc;
-    box-shadow: 5px 5px 5px #9ca3af;
+    box-shadow: 4px 4px 5px #a1a1aa;
     border-radius: 10px;
-    width: 250px;
-    min-width: 250px;
+    max-width: 240px;
     margin: 0 20px;
     justify-items: center;
     align-items: center;
