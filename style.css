@@ -265,10 +265,19 @@ gap: 30px;
     margin: 0 20px;
     justify-items: center;
     align-items: center;
+    padding: 10px;
+}
+
+.trending p {
+    font-size: 0.7rem;
 }
 
 .trending > div {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
 }
 
 .trending > div >img {
