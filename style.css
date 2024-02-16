@@ -169,7 +169,7 @@ gap: 30px;
     grid-template-columns: 2.5fr 1fr;
     grid-template-rows: 1fr;
     background-color: #d1d5db;
-    padding-bottom: 40px;
+    padding: 30px 0 40px 0;
 }
 
 .projects {
@@ -215,7 +215,7 @@ gap: 30px;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     display: grid;
-    grid-template-rows: 40px 1fr 40px 1fr;
+    grid-template-rows: 40px 1fr 55px 1fr;
     grid-template-areas: "annoucement-text"
                          ""
 }
@@ -235,7 +235,7 @@ gap: 30px;
     border-radius: 10px;
     margin-right: 20px;
     padding: 10px 20px 20px;
-    min-width: 250px;
+    max-width: 250px;
 }
 
 .announcement > div:not(:last-child) {
@@ -249,15 +249,20 @@ gap: 30px;
 
 /* Trending */
 
+.trending-text {
+    align-self: end;
+    margin-bottom: 10px;
+}
+
 .trending {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     background-color: #f8fafc;
     box-shadow: 5px 5px 5px #9ca3af;
     border-radius: 10px;
+    width: 250px;
     min-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 20px;
 }
 
 .trending > div {
